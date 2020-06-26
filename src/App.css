@@ -1,0 +1,249 @@
+h1 {
+    color: black;
+  }
+  
+  body {
+  
+    background-color: white;
+  
+  }
+  
+  #root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .pokedex {
+    background-color: #e61515;
+    width: 848px;
+    margin: 0 auto;
+    padding: 1em;
+    border-radius: 15px;
+    display: flex;
+    min-height:700px;
+  }
+  
+  .cadre {
+    width: 500px;
+    padding: 10px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    min-height:600px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+  }
+  
+
+  .description {
+    background: white;
+    padding: 5px;
+    margin-top:7px;
+    margin-bottom:7px;
+    font-family: "Arial";
+    border: solid black 1px;
+  }
+
+ .description-type {
+    background: white;
+    padding: 5px;
+    margin-top:7px;
+    margin-bottom:7px;
+    font-family: "Arial";
+    border: solid black 1px;
+    min-height:83px;
+  }
+  
+  .pokemon-name {
+    font-size: 28px;
+    letter-spacing: 4px;
+    text-transform: capitalize;
+    height: 45px;
+    box-sizing: border-box;
+  }
+  .name-no {
+    float: right;
+    text-transform: lowercase;
+  }
+  .pokemon-description {
+    font-size: 18px;
+    letter-spacing: 0;
+    min-height: 115px;
+    box-sizing: border-box;
+    flex: 1;
+  }
+  
+  .name{
+    z-index:1;
+    width: 100%;
+  }
+  
+  .name h1 {
+    font-family:Arial;
+    margin: 10px;
+  }
+  
+  .ecran {
+    background: rgb(66, 166, 224);
+    border: black solid 3px;
+  }
+  .image {
+    width: 100%;
+    image-rendering:  pixelated;
+    background: rgb(66, 166, 224);
+  }
+
+
+  
+  .small-image {
+    height: 120px;
+    width: 120px;
+    margin: 3px 0;
+  }
+
+  .type {
+    text-transform: capitalize;
+    font-size: 1.25em;
+    padding: 2px;
+    margin: 2px;
+    border: solid black 3px;
+    border-radius: 10px;
+    width: 150px;
+    font-family: "Arial";
+    text-align: center;
+    letter-spacing: 2px;
+    align-self: center;
+  }
+  .header {
+    text-transform: capitalize;
+    font-size: 1.25em;
+    padding: 5px;
+    font-family: "Staatliches", cursive;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 3px 2px;
+  }
+  .type {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+
+  .evolution {
+    flex-wrap: wrap;
+  }
+  .empty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:15px;
+  }
+
+  .empty h2{
+    font-size:36px;
+    font-family: arial;
+  }
+
+
+  .evolution-header {
+    width: 100%;
+    margin-bottom: 2px;
+  }
+  .evolution-number {
+    font-family: "arial";
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+    background: transparent;
+    border: none;
+  }
+  .evolution-name {
+    width: auto;
+    padding: 3px;
+    margin-bottom: 10px;
+    text-align: right;
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .controls {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    margin-top:70px;
+  }
+
+  .buttonLeft {
+        width: 0;
+        height: 0;
+        border-top: 25px solid transparent;
+        border-right: 50px solid grey;
+        border-bottom: 25px solid transparent;
+    cursor: pointer;
+    margin-right:2px;
+  }
+
+  .buttonRight {
+    width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 50px solid grey;
+	border-bottom: 25px solid transparent;
+cursor: pointer;
+}
+
+
+  .buttonLeft:hover {
+    width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-right: 50px solid black;
+	border-bottom: 25px solid transparent;
+  }
+
+  .buttonRight:hover {
+    width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 50px solid black;
+	border-bottom: 25px solid transparent;
+  }
+
+.border{
+  border: solid black 3px;
+  border-radius:10px;
+}
+  .number {
+    width: 50px;
+    font-size: 20px;
+    height: 30px;
+    text-align: right;
+    align-self: center;
+  }
+  
+  .oval {
+    width: 60px;
+    height: 18px;
+  
+    border: solid white 3px;
+    background-color: blue;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-top: 3px;
+    cursor: pointer;
+  }
+  .oval:hover {
+    border-color: black;
+  }
+  
